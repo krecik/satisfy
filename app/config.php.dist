@@ -6,6 +6,11 @@
 $app['satis.filename'] = __DIR__.'/../satis.json';
 
 /**
+ * Default location for index.html file from satis
+ */
+$app['satis.index_file'] = __DIR__ . '/../web/index.html';
+
+/**
  * Satis file formating options
  *
  * See http://php.net/manual/en/json.constants.php for constants description
